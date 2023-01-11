@@ -1,13 +1,9 @@
 
 spring:
-  datasource:
-    url: jdbc:mysql://localhost:3306/cmsapp
-    username: root
-    password: Diegotobon28
-    driver-class-name: com.mysql.cj.jdbc.Driver
-  jpa:
-    show-sql: true
-    generate-ddl: true
+  data:
+    mongodb:
+      uri: mongodb+srv://programadores-chile:programadores-chile@programadores-chile.oeo0udf.mongodb.net/?retryWrites=true&w=majority
+      database: cms-app
   mvc:
     pathmatch:
       matching-strategy: ant_path_matcher
